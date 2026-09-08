@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer ornate gold ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFD166"
+        android:strokeWidth="3.5"
+        android:pathData="M54,54m-26,0a26,26 0 1,1 52,0a26,26 0 1,1 -52,0" />
+    <!-- Inner runic ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#F4A261"
+        android:strokeWidth="1.5"
+        android:pathData="M54,54m-20,0a20,20 0 1,1 40,0a20,20 0 1,1 -40,0" />
+    <!-- North Needle (Glowing Ruby/Gold) -->
+    <path
+        android:fillColor="#EF476F"
+        android:pathData="M54,26L58,54L54,51L50,54Z" />
+    <!-- South Needle -->
+    <path
+        android:fillColor="#118AB2"
+        android:pathData="M54,82L58,54L54,57L50,54Z" />
+    <!-- East Needle -->
+    <path
+        android:fillColor="#06D6A0"
+        android:pathData="M82,54L54,58L57,54L54,50Z" />
+    <!-- West Needle -->
+    <path
+        android:fillColor="#FFD166"
+        android:pathData="M26,54L54,58L51,54L54,50Z" />
+    <!-- Center Mystic Gem Core -->
+    <path
+        android:fillColor="#FFD166"
+        android:pathData="M54,54m-6,0a6,6 0 1,1 12,0a6,6 0 1,1 -12,0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,54m-3,0a3,3 0 1,1 6,0a3,3 0 1,1 -6,0" />
+    <!-- Compass cardinal points -->
+    <path
+        android:fillColor="#FFEAA7"
+        android:pathData="M54,22l1.5,3.5l-3,0z" />
+    <path
+        android:fillColor="#FFEAA7"
+        android:pathData="M54,86l1.5,-3.5l-3,0z" />
+    <path
+        android:fillColor="#FFEAA7"
+        android:pathData="M86,54l-3.5,1.5l0,-3z" />
+    <path
+        android:fillColor="#FFEAA7"
+        android:pathData="M22,54l3.5,1.5l0,-3z" />
+</vector>
